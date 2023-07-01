@@ -65,7 +65,7 @@ class ProfileScreen extends StatelessWidget {
               child: IconButton(
                 icon: const Icon(Icons.add_sharp),
                 onPressed: () {
-                  // Action du troisième bouton
+                  NavigationHelper.openAddScreen(context);
                 },
               ),
             ),

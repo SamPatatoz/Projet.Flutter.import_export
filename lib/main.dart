@@ -106,7 +106,7 @@ class _MyHomePageState extends State<MyHomePage> {
               child: IconButton(
                 icon: const Icon(Icons.add_sharp),
                 onPressed: () {
-                  // Action du troisième bouton
+                  NavigationHelper.openAddScreen(context);
                 },
               ),
             ),
